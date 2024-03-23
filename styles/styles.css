@@ -57,12 +57,12 @@ aside ul a {
 }
 
 aside li i {
-    margin-left: 1rem;
+    margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
 
 aside ul a:hover {
-    padding-left: 1.5rem;
+    padding-left: 0.6rem;
     background-color: rgb(255, 255, 255);
 }
 
@@ -86,12 +86,6 @@ main p {
 
 main ul {
     margin-left: 1.2rem;
-}
-
-section {
-    padding: 1rem;
-    padding-top: 2.5rem;
-    line-height: 1.5rem;
 }
 
 a {
@@ -130,17 +124,13 @@ a:hover {
     border-radius: 2ch;
 }
 
-#home,
-#contact,
-#projects {
-    display: none;
+section {
+    display: block;
+    padding: 1rem;
+    padding-top: 2.5rem;
+    line-height: 1.5rem;
 }
 
-#home:target,
-#contact:target,
-#projects:target {
-    display: block;
-}
 
 @media (min-width: 1000px) {
     * {
@@ -157,6 +147,10 @@ a:hover {
 
     main {
         width: 80%;
+    }
+
+    aside li i {
+        margin-left: 1.2rem;
     }
 }
 

@@ -61,6 +61,10 @@ aside li i {
     margin-right: 0.5rem;
 }
 
+aside li a.active {
+    background-color: rgba(85, 58, 205, .15);
+}
+
 aside ul a:hover {
     padding-left: 0.6rem;
     background-color: rgb(255, 255, 255);
